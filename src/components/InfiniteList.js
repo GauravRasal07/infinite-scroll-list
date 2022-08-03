@@ -37,7 +37,7 @@ const InfiniteList = () => {
 
   useEffect(() => {
     fetchData();
-  }, []);
+  });
 
   return (
     <div>

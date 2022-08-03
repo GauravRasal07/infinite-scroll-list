@@ -3,7 +3,7 @@ import { Navigate } from "react-router-dom";
 import { MainContext } from "../App";
 
 export const PrivateComponent = (props) => {
-  const { component: Component, ...rest } = props;
+  const { component: Component   } = props;
 
   const mainContext = useContext(MainContext);
   const { isLoggedIn } = mainContext;
