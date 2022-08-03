@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap");
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  color: rgb(73, 71, 71);
+}
+
+.login-page {
+  margin: auto;
+  padding-top: 5%;
+}
+
+.navbar-brand {
+  font-weight: 500;
+}
+
+.navbar-expand-md .navbar-collapse {
+  justify-content: right !important;
+}
+
+strong {
+  font-weight: 600;
+  color: #000;
+}
+
+p {
+  margin-bottom: 5px !important;
+}
+
+.cards-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-row .row > * {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .card-img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.card-text {
+  padding-bottom: 20px;
+}
